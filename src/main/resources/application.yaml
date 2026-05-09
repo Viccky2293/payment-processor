@@ -1,0 +1,46 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: payment-processor
+  kafka:
+    # Kafka broker address. Format: host:port. Can have multiple brokers: localhost:9092,localhost:9093
+    bootstrap-servers: localhost:9092
+
+    producer:
+      # Serializes message keys to bytes. Values: StringSerializer, LongSerializer, IntegerSerializer, ByteArraySerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      # Serializes message values to bytes. Values: StringSerializer, LongSerializer, IntegerSerializer, ByteArraySerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      # Acknowledgment strategy. Values: 0 (none), 1 (leader), all (all replicas) - 'all' is safest but slower
+      acks: all
+      # Number of retries on failure. Values: 0 to any integer. 0 = no retries, higher = more resilient
+      retries: 3
+      # Batch size in bytes for grouping messages. Values: 0 to large number. Default: 16384. Larger batches = better throughput
+      batch-size: 16384
+      # Wait time in milliseconds before sending. Values: 0 to any integer. 0 = send immediately, higher = waits for batching
+      linger-ms: 10
+
+    consumer:
+      # Kafka broker address for consumer. Format: host:port. Can be same or different from producer brokers
+      bootstrap-servers: localhost:9092
+      # Consumer group ID. All consumers in same group share message partitions. Values: any string
+      group-id: kafka-practice-consumer
+      # Deserializes message keys from bytes. Values: StringDeserializer, LongDeserializer, IntegerDeserializer, ByteArrayDeserializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      # Deserializes message values from bytes. Values: StringDeserializer, LongDeserializer, IntegerDeserializer, ByteArrayDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      # Offset reset strategy when no offset found. Values: earliest (start from beginning), latest (start from end), none (throw error)
+      auto-offset-reset: earliest
+
+com:
+  hcl:
+    payment-processor:
+      kafka:
+        consumers:
+          payment-submit:
+            topic-name: payments.submitted
+            group-id: group.payments.submitted
+        producers:
+          topics:
+            payment-processed: payments.processed
