@@ -23,23 +23,6 @@ public class KafkaConfig {
     public KafkaTemplate<String, String> kafkaTemplate(ProducerFactory<String, String> producerFactory) {
         KafkaTemplate<String, String> template = new KafkaTemplate<>(producerFactory);
         
-        // Set default topic if needed (optional)
-        template.setDefaultTopic("test-topic");
-        
-        log.info("KafkaTemplate bean initialized");
-        return template;
-    }
-
-    /**
-     * Customize KafkaTemplate bean for message production
-     */
-    @Bean
-    public KafkaTemplate<String, PaymentEvent> paymentEventKafkaTemplate(ProducerFactory<String, PaymentEvent> producerFactory) {
-        KafkaTemplate<String, PaymentEvent> template = new KafkaTemplate<>(producerFactory);
-
-        // Set default topic if needed (optional)
-        template.setDefaultTopic("test-topic");
-
         log.info("KafkaTemplate bean initialized");
         return template;
     }

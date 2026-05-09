@@ -1,0 +1,447 @@
+[
+  {
+    "paymentId": "fdfac041-1a5d-4116-8253-1c7ee750c5c8",
+    "debitAccountId": "30-91-44/12309876",
+    "creditAccountId": "30-91-44/12309876",
+    "amount": 17059.38,
+    "currency": "GBP",
+    "reference": "INTERNAL REF-1003",
+    "timestamp": "2024-10-03T15:58:21Z"
+  },
+  {
+    "paymentId": "6c69263b-a667-4d0c-9144-b6bce4fc376a",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "09-01-28/11223344",
+    "amount": 136937.93,
+    "currency": "GBP",
+    "timestamp": "2024-10-29T06:49:40Z"
+  },
+  {
+    "paymentId": "26ab0d74-877e-4fb3-8129-1aaad20725d1",
+    "debitAccountId": "55-66-33/98765432",
+    "creditAccountId": "09-01-28/55667788",
+    "amount": 161894.81,
+    "currency": "GBP",
+    "reference": "RENT DEC 2024",
+    "timestamp": "2024-10-11T11:37:07Z"
+  },
+  {
+    "paymentId": "160416fc-368e-47b5-af00-d51a0119bbfa",
+    "debitAccountId": "40-47-84/99887766",
+    "creditAccountId": "55-66-33/10293847",
+    "amount": 119301.39,
+    "currency": "GBP",
+    "reference": "CAR INSURANCE",
+    "timestamp": "2024-10-06T07:32:14Z"
+  },
+  {
+    "paymentId": "27761a32-9061-492d-9d6c-27d515d88df1",
+    "debitAccountId": "77-22-55/13579246",
+    "creditAccountId": "22-33-44/47382910",
+    "amount": 3944.36,
+    "currency": "GBP",
+    "timestamp": "2024-10-17T01:43:13Z"
+  },
+  {
+    "paymentId": "6d7efdbe-ea09-4376-bf03-4518fe074791",
+    "debitAccountId": "11-44-77/33445566",
+    "creditAccountId": "11-44-77/33445566",
+    "amount": 2069.8,
+    "currency": "GBP",
+    "reference": "INTERNAL REF-1002",
+    "timestamp": "2024-10-28T00:28:57Z"
+  },
+  {
+    "paymentId": "4e287cd4-7449-44cb-837a-c148a2e6d2ff",
+    "debitAccountId": "20-15-88/61082934",
+    "creditAccountId": "22-33-44/47382910",
+    "amount": 299999.99,
+    "currency": "GBP",
+    "reference": "INVOICE INV-10389",
+    "timestamp": "2024-10-29T05:43:50Z"
+  },
+  {
+    "paymentId": "5a8636c6-a2ae-4dd5-b2c3-14b2c8771c48",
+    "debitAccountId": "22-33-44/82736450",
+    "creditAccountId": "60-83-71/34561234",
+    "amount": 30610.06,
+    "currency": "GBP",
+    "reference": "SHARED COSTS",
+    "timestamp": "2024-10-31T23:20:02Z"
+  },
+  {
+    "paymentId": "7556c5bd-dd74-4aff-8740-80e30d43525e",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "20-15-88/61082934",
+    "amount": 48212.03,
+    "currency": "GBP",
+    "reference": "MONTHLY PAYROLL",
+    "timestamp": "2024-10-27T20:12:24Z"
+  },
+  {
+    "paymentId": "7aa57cfa-f618-437e-adeb-a24f88788df8",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 118118.39,
+    "currency": "GBP",
+    "reference": "MONTHLY PAYROLL",
+    "timestamp": "2024-10-21T09:16:06Z"
+  },
+  {
+    "paymentId": "8a4f93bd-93e2-464b-a3c4-aa0783044a72",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "40-47-84/99887766",
+    "amount": 18585.43,
+    "currency": "USD",
+    "reference": "CONTRACT PMT Q4",
+    "timestamp": "2024-10-21T14:57:59Z"
+  },
+  {
+    "paymentId": "f4a3fce1-e555-4906-a2cc-b27e1da6d393",
+    "debitAccountId": "22-33-44/47382910",
+    "creditAccountId": "88-99-11/63819274",
+    "amount": 33066.97,
+    "currency": "GBP",
+    "reference": "HOLIDAY FUND",
+    "timestamp": "2024-10-21T17:14:14Z"
+  },
+  {
+    "paymentId": "d595c5f4-7b23-42bb-ae81-da17f4a794c1",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "60-83-71/34561234",
+    "amount": 142603.43,
+    "currency": "GBP",
+    "reference": "CONTRACT PMT Q4",
+    "timestamp": "2024-10-10T17:34:36Z"
+  },
+  {
+    "paymentId": "a71c75b9-91f3-40ad-903f-7afc51ef6b0c",
+    "debitAccountId": "22-33-44/82736450",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 300000.0,
+    "currency": "GBP",
+    "reference": "INVOICE INV-10389",
+    "timestamp": "2024-10-28T16:10:01Z"
+  },
+  {
+    "paymentId": "048bb27c-924a-45bd-bd69-d71097f03b74",
+    "debitAccountId": "11-44-77/66778899",
+    "creditAccountId": "88-99-11/91827364",
+    "amount": 41940.72,
+    "currency": "GBP",
+    "reference": "MONTHLY PAYROLL",
+    "timestamp": "2024-10-02T10:18:40Z"
+  },
+  {
+    "paymentId": "003c7db8-6891-4a64-9776-a4621da2fa12",
+    "debitAccountId": "20-15-88/61082934",
+    "creditAccountId": "30-91-44/12309876",
+    "amount": 12169.44,
+    "currency": "GBP",
+    "reference": "PAYROLL NOV-2024",
+    "timestamp": "2024-10-19T22:17:40Z"
+  },
+  {
+    "paymentId": "c5a4461d-2561-4361-a346-f9599b4485d4",
+    "debitAccountId": "22-33-44/82736450",
+    "creditAccountId": "55-66-33/98765432",
+    "amount": 24244.67,
+    "currency": "GBP",
+    "reference": "SUPPLIER PMT 4421",
+    "timestamp": "2024-10-30T23:29:36Z"
+  },
+  {
+    "paymentId": "9d7c90f6-6530-4bb7-a174-b7e0c7fe9292",
+    "debitAccountId": "09-01-28/55667788",
+    "creditAccountId": "22-33-44/82736450",
+    "amount": 152403.58,
+    "currency": "GBP",
+    "reference": "PAYROLL NOV-2024",
+    "timestamp": "2024-10-17T12:17:12Z"
+  },
+  {
+    "paymentId": "df3d46eb-0113-4ef6-8a35-b65cf054da8a",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 181087.83,
+    "currency": "GBP",
+    "timestamp": "2024-10-28T13:26:43Z"
+  },
+  {
+    "paymentId": "00a4d6a9-5309-4747-a872-753caa04cf4e",
+    "debitAccountId": "88-99-11/91827364",
+    "creditAccountId": "77-22-55/13579246",
+    "amount": 42564.46,
+    "currency": "GBP",
+    "reference": "CAR INSURANCE",
+    "timestamp": "2024-10-25T01:32:34Z"
+  },
+  {
+    "paymentId": "63d14b7a-d14b-4a26-83ab-0fb980fe9785",
+    "debitAccountId": "30-91-44/12309876",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 76016.08,
+    "currency": "GBP",
+    "reference": "CONTRACT PMT Q4",
+    "timestamp": "2024-10-02T16:36:30Z"
+  },
+  {
+    "paymentId": "95fddcde-5e20-43ad-a134-e05b147b67c9",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "30-91-44/12309876",
+    "amount": 76055.86,
+    "currency": "GBP",
+    "reference": "CONTRACT PMT Q4",
+    "timestamp": "2024-10-24T02:29:40Z"
+  },
+  {
+    "paymentId": "34c44797-2877-4ac2-8ffe-4e42ce904b7f",
+    "debitAccountId": "09-01-28/55667788",
+    "creditAccountId": "55-66-33/98765432",
+    "amount": 251000.0,
+    "currency": "GBP",
+    "reference": "SUPPLIER PMT 4421",
+    "timestamp": "2024-10-11T11:09:39Z"
+  },
+  {
+    "paymentId": "d28b9064-8bf6-4a91-96ab-3e3bb450ea2a",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "77-22-55/24681357",
+    "amount": 165888.63,
+    "currency": "GBP",
+    "reference": "CONTRACT PMT Q4",
+    "timestamp": "2024-10-03T23:20:10Z"
+  },
+  {
+    "paymentId": "b659ecf2-380f-4ce3-9461-0035d0db059f",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "22-33-44/82736450",
+    "amount": 120423.04,
+    "currency": "GBP",
+    "reference": "HOLIDAY FUND",
+    "timestamp": "2024-10-21T07:10:06Z"
+  },
+  {
+    "paymentId": "90433f35-dc6f-4422-8709-ed6835c2cf1b",
+    "debitAccountId": "40-47-84/99887766",
+    "creditAccountId": "88-99-11/63819274",
+    "amount": 145838.17,
+    "currency": "GBP",
+    "reference": "BIRTHDAY TRANSFER",
+    "timestamp": "2024-10-18T21:29:17Z"
+  },
+  {
+    "paymentId": "ea8ff870-a924-4f7e-9f6a-b5db11d2707b",
+    "debitAccountId": "22-33-44/82736450",
+    "creditAccountId": "09-01-28/11223344",
+    "amount": 55731.25,
+    "currency": "GBP",
+    "reference": "RENT NOV 2024",
+    "timestamp": "2024-10-04T06:41:12Z"
+  },
+  {
+    "paymentId": "55b2254b-c46d-4494-989e-c6f5abb1cc93",
+    "debitAccountId": "11-44-77/33445566",
+    "creditAccountId": "20-15-88/61082934",
+    "amount": 7826.35,
+    "currency": "USD",
+    "reference": "INVOICE INV-10044",
+    "timestamp": "2024-10-13T01:07:33Z"
+  },
+  {
+    "paymentId": "7250c835-5d77-4777-b490-3327fc4f93b0",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "22-33-44/47382910",
+    "amount": 268750.0,
+    "currency": "GBP",
+    "reference": "INVOICE INV-10389",
+    "timestamp": "2024-10-22T18:45:11Z"
+  },
+  {
+    "paymentId": "e972efd5-0980-47e1-be81-5a043816183f",
+    "debitAccountId": "88-99-11/91827364",
+    "creditAccountId": "22-33-44/47382910",
+    "amount": 48637.06,
+    "currency": "GBP",
+    "reference": "HOLIDAY FUND",
+    "timestamp": "2024-10-22T18:09:23Z"
+  },
+  {
+    "paymentId": "fb20cf25-0a11-4434-a4e7-8b84bde8c66c",
+    "debitAccountId": "22-33-44/82736450",
+    "creditAccountId": "22-33-44/47382910",
+    "amount": 18227.25,
+    "currency": "GBP",
+    "reference": "PAYROLL NOV-2024",
+    "timestamp": "2024-10-24T13:55:38Z"
+  },
+  {
+    "paymentId": "6d345d4f-d44b-43a4-a559-1a13f6fe31c3",
+    "debitAccountId": "60-83-71/34561234",
+    "creditAccountId": "88-99-11/91827364",
+    "amount": 107279.8,
+    "currency": "GBP",
+    "reference": "RENT DEC 2024",
+    "timestamp": "2024-10-18T11:28:17Z"
+  },
+  {
+    "paymentId": "902200d3-975e-4859-a6b7-6ffb754681ce",
+    "debitAccountId": "09-01-28/55667788",
+    "creditAccountId": "20-15-88/61082934",
+    "amount": 145959.14,
+    "currency": "GBP",
+    "reference": "BIRTHDAY TRANSFER",
+    "timestamp": "2024-10-28T04:11:29Z"
+  },
+  {
+    "paymentId": "abcd1b86-184b-4bf8-b84e-5f9bbe20ee72",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "30-91-44/12309876",
+    "amount": 2751.18,
+    "currency": "EUR",
+    "reference": "INVOICE INV-10044",
+    "timestamp": "2024-10-27T11:20:28Z"
+  },
+  {
+    "paymentId": "99952b1a-8ac5-4bc1-8833-5636957183f3",
+    "debitAccountId": "30-91-44/12309876",
+    "creditAccountId": "20-15-88/43917265",
+    "amount": 148322.28,
+    "currency": "GBP",
+    "reference": "RENT NOV 2024",
+    "timestamp": "2024-10-27T00:35:05Z"
+  },
+  {
+    "paymentId": "deb37ef0-0fad-48c3-a562-318a6c6b6871",
+    "debitAccountId": "77-22-55/13579246",
+    "creditAccountId": "09-01-28/55667788",
+    "amount": 31137.97,
+    "currency": "GBP",
+    "timestamp": "2024-10-15T15:50:21Z"
+  },
+  {
+    "paymentId": "732b7faa-cdb0-4558-a340-bfcd24324343",
+    "debitAccountId": "88-99-11/63819274",
+    "creditAccountId": "20-15-88/61082934",
+    "amount": 287500.5,
+    "currency": "GBP",
+    "reference": "SUPPLIER PMT 4421",
+    "timestamp": "2024-10-29T05:23:52Z"
+  },
+  {
+    "paymentId": "e0229c89-3cdc-4d16-bb87-9dd8c3b60aec",
+    "debitAccountId": "88-99-11/91827364",
+    "creditAccountId": "88-99-11/63819274",
+    "amount": 46061.21,
+    "currency": "GBP",
+    "reference": "MONTHLY PAYROLL",
+    "timestamp": "2024-10-29T03:24:26Z"
+  },
+  {
+    "paymentId": "94a44529-8f67-4ed5-a000-5c3bf531c5a9",
+    "debitAccountId": "09-01-28/55667788",
+    "creditAccountId": "88-99-11/63819274",
+    "amount": 172162.04,
+    "currency": "GBP",
+    "reference": "PAYROLL NOV-2024",
+    "timestamp": "2024-10-05T22:23:04Z"
+  },
+  {
+    "paymentId": "f28956ec-e55d-4c7b-adf8-b2cfaa725f21",
+    "debitAccountId": "60-83-71/34561234",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 9212.54,
+    "currency": "GBP",
+    "reference": "INVOICE INV-10389",
+    "timestamp": "2024-10-28T03:02:09Z"
+  },
+  {
+    "paymentId": "e89790a1-0cdb-4bcc-83ae-faa89d982351",
+    "debitAccountId": "22-33-44/47382910",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 195597.02,
+    "currency": "GBP",
+    "reference": "RENT NOV 2024",
+    "timestamp": "2024-10-25T18:24:48Z"
+  },
+  {
+    "paymentId": "d9be4ce7-0421-4f4b-8cf2-78cb8dca0075",
+    "debitAccountId": "30-91-44/87654321",
+    "creditAccountId": "30-91-44/87654321",
+    "amount": 37693.05,
+    "currency": "GBP",
+    "reference": "INTERNAL REF-1000",
+    "timestamp": "2024-10-04T08:16:49Z"
+  },
+  {
+    "paymentId": "b136e6ec-99cb-489e-b668-3d447eefab9b",
+    "debitAccountId": "09-01-28/55667788",
+    "creditAccountId": "40-47-84/55501234",
+    "amount": 49362.92,
+    "currency": "GBP",
+    "reference": "INVOICE INV-10044",
+    "timestamp": "2024-10-03T14:54:29Z"
+  },
+  {
+    "paymentId": "66d4816c-53c0-4519-a8c3-3b99fb86365e",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "09-01-28/11223344",
+    "amount": 10225.51,
+    "currency": "GBP",
+    "reference": "INTERNAL REF-1001",
+    "timestamp": "2024-10-03T03:20:06Z"
+  },
+  {
+    "paymentId": "e7c88edb-daa8-47d9-ab75-6b98cdb0e390",
+    "debitAccountId": "77-22-55/24681357",
+    "creditAccountId": "60-83-71/34561234",
+    "amount": 275000.0,
+    "currency": "GBP",
+    "reference": "INVOICE INV-10044",
+    "timestamp": "2024-10-03T21:12:22Z"
+  },
+  {
+    "paymentId": "79d8858e-c8e7-4315-9d10-a95888a60f94",
+    "debitAccountId": "09-01-28/11223344",
+    "creditAccountId": "20-15-88/61082934",
+    "amount": 161018.1,
+    "currency": "GBP",
+    "reference": "MONTHLY PAYROLL",
+    "timestamp": "2024-10-21T18:11:14Z"
+  },
+  {
+    "paymentId": "5867dc66-f4a4-4eca-9288-dcf936b25b17",
+    "debitAccountId": "55-66-33/10293847",
+    "creditAccountId": "11-44-77/33445566",
+    "amount": 72430.83,
+    "currency": "GBP",
+    "timestamp": "2024-10-25T06:49:55Z"
+  },
+  {
+    "paymentId": "8ec11897-0d2c-4a54-89d5-4220270d2ad9",
+    "debitAccountId": "09-01-28/55667788",
+    "creditAccountId": "77-22-55/13579246",
+    "amount": 22354.75,
+    "currency": "GBP",
+    "reference": "CAR INSURANCE",
+    "timestamp": "2024-10-31T20:13:09Z"
+  },
+  {
+    "paymentId": "7279fe3c-4380-489b-a48a-f03c9d929df6",
+    "debitAccountId": "30-91-44/12309876",
+    "creditAccountId": "88-99-11/91827364",
+    "amount": 131812.94,
+    "currency": "GBP",
+    "reference": "HOLIDAY FUND",
+    "timestamp": "2024-10-09T07:52:37Z"
+  },
+  {
+    "paymentId": "fb6e0228-0e03-4246-9e3a-0a143c4c3162",
+    "debitAccountId": "55-66-33/98765432",
+    "creditAccountId": "09-01-28/11223344",
+    "amount": 39414.62,
+    "currency": "EUR",
+    "reference": "INVOICE INV-10044",
+    "timestamp": "2024-10-10T11:42:55Z"
+  }
+]

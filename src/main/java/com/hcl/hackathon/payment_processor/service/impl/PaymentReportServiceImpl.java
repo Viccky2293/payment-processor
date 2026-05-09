@@ -17,6 +17,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -34,8 +35,8 @@ public class PaymentReportServiceImpl implements PaymentReportService {
         var map = paymentOutcomesRepository.findAll().stream().collect(Collectors.groupingBy(PaymentOutcomesEntity::getStatus));
 
         return MetricsSummaryResponse.builder()
-                .totalProcessed(map.get(PaymentStatus.PROCESSED).size())
-                .totalHeld(map.get(PaymentStatus.HELD).size())
+                .totalProcessed(map.getOrDefault(PaymentStatus.PROCESSED, Collections.emptyList()).size())
+                .totalHeld(map.getOrDefault(PaymentStatus.HELD, Collections.emptyList()).size())
                 .build();
     }
 

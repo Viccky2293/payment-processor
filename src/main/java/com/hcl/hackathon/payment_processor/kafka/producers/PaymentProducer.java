@@ -20,8 +20,6 @@ public class PaymentProducer {
 
     final private KafkaTemplate<String, String> kafkaTemplate;
 
-    final private KafkaTemplate<String, PaymentEvent> paymentEventKafkaTemplate;
-
     @Value("${com.hcl.payment-processor.kafka.producers.topics.payment-processed}")
     private String paymentProcessedTopic;
 
@@ -36,7 +34,7 @@ public class PaymentProducer {
 
     private void publishEvent(String topic, UUID key, PaymentEvent event) {
         log.info("Publishing payment event to topic [{}] with key [{}]: {}", topic, key, event);
-        paymentEventKafkaTemplate.send(topic, key.toString(), event);
+        kafkaTemplate.send(topic, key.toString(), event.toString());
     }
 }
 

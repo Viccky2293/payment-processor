@@ -3,6 +3,22 @@ server:
 spring:
   application:
     name: payment-processor
+  datasource:
+    url: jdbc:h2:mem:payment-processor
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   kafka:
     # Kafka broker address. Format: host:port. Can have multiple brokers: localhost:9092,localhost:9093
     bootstrap-servers: localhost:9092
